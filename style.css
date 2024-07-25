@@ -1193,6 +1193,121 @@ ul li {
     width: 100%;
     background: #000;
 }
+
+.last-page{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0vw 6vw;
+}
+
+.h3{
+    font-size: 3.6vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 6vw;
+}
+
+.card-list{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.card-list .card-item{
+    /* user-select: none !important; */
+    width: 20vw;
+    padding: 2vw;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.card-list .card-item .uper-item{
+    display: flex;
+    flex-direction: column;
+    line-height: -1px;    
+    gap: 0.5vw;
+}
+.card-list .card-item .uper-item .card-h1 p{
+    font-size: 1vw;
+    font-weight: 600;
+    color: #0000009a;
+}
+.card-list .card-item .uper-item .card-h1 p:nth-child(2){
+    font-size: 0.7vw;
+    padding: 0.1vw 0.4vw;
+    border-radius: 5px;
+    background-color: #f6bff6;
+}
+
+.card-list .card-item .types{
+    display: flex;
+    gap: 1vw;
+}
+.card-list .card-item .types p {
+    font-weight: 500;
+    background: #e3e3e391;
+    border: 1px solid #ffffff99;
+    padding: 0vw 0.4vw;
+    border-radius: 5px;
+    transition: all ease-in-out 0.4s;
+}
+.card-list .card-item .types p:hover{
+    border: 1.5px solid #00000099;
+}
+
+.card-list .card-item .card-h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-list .card-item .uper-item .price{
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: #000000a7;
+}
+
+.card-list .card-item .down-btn{
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card-list .card-item .down-btn button{
+    width: 45%;
+    height: 2vw;
+    border: none;
+    border-radius: 5px;
+    background: #e3e3e3;
+    transition: all ease-in-out 0.3s;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.card-list .card-item .down-btn button:hover{
+    background: #3c3c3c;
+    color: #fff;
+}
+
+.card-list .card-item .prod-image{
+    width: 15vw;
+    height: 15vw;
+    margin-bottom: 1vw;
+    padding: 0.8vw;
+    border-radius: 5px;
+    background: #ffebbc;
+}
+
 @media (max-width:600px){
     #main .bgLogo {
         position: absolute;
@@ -2312,5 +2427,120 @@ ul li {
     background: #000;
 }
 
+.last-page{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0vw 6vw;
+}
+
+.h3{
+    font-size: 3.6vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 6vw;
+}
+
+.card-list{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.card-list .card-item{
+    /* user-select: none !important; */
+    width: 60vw;
+    padding: 2vw;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 90vw;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.card-list .card-item .uper-item{
+    display: flex;
+    flex-direction: column;
+    line-height: -1px;    
+    gap: 0.3vw;
+}
+.card-list .card-item .uper-item .card-h1 p{
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #0000009a;
+}
+.card-list .card-item .uper-item .card-h1 p:nth-child(2){
+    font-size: 3vw;
+    padding: 0.1vw 0.4vw;
+    border-radius: 5px;
+    background-color: #f6bff6;
+}
+
+.card-list .card-item .types{
+    display: flex;
+    gap: 1vw;
+}
+.card-list .card-item .types p {
+    font-weight: 500;
+    background: #e3e3e391;
+    border: 1px solid #ffffff99;
+    padding: 0vw 0.4vw;
+    border-radius: 5px;
+    transition: all ease-in-out 0.4s;
+}
+.card-list .card-item .types p:hover{
+    border: 1.5px solid #00000099;
+}
+
+.card-list .card-item .card-h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-list .card-item .uper-item .price{
+    font-size: 5vw;
+    font-weight: 600;
+    color: #000000a7;
+}
+
+.card-list .card-item .down-btn{
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card-list .card-item .down-btn button{
+    width: 45%;
+    height: 5.5vw;
+    border: none;
+    border-radius: 5px;
+    background: #e3e3e3;
+    transition: all ease-in-out 0.3s;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.card-list .card-item .down-btn button:hover{
+    background: #3c3c3c;
+    color: #fff;
+}
+
+.card-list .card-item .prod-image{
+    width: 55vw;
+    height: 55vw;
+    margin-bottom: 1vw;
+    padding: 0.8vw;
+    border-radius: 5px;
+    background: #ffebbc;
+}
 
 }
