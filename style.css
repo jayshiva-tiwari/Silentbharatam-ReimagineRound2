@@ -1204,7 +1204,7 @@ ul li {
     font-size: 3.6vw;
     font-weight: 800;
     text-transform: uppercase;
-    padding-bottom: 6vw;
+    padding-bottom: 3vw;
 }
 
 .card-list{
@@ -1306,6 +1306,10 @@ ul li {
     padding: 0.8vw;
     border-radius: 5px;
     background: #ffebbc;
+    transition: all ease-in-out 0.3s;
+}
+.card-list .card-item:hover .prod-image{
+    scale: 1.1;
 }
 
 @media (max-width:600px){
